@@ -4,6 +4,6 @@
 
 - Criamos duas filas uma para receber o pedido e outra para quando o pedido estiver em envio.
 
-- No arquivo primeiroConsumidor.js ele cria a tabela no banco de dados e espera a loja.js enviar algum pedido, assim que o pedido é enviado o segundoConsumidor.js recebe as informações que foram repassadas pelo primeiroConsumidor e coloca o pedido em enviado.
+- No arquivo primeiroConsumidor.js ele cria a tabela no banco de dados e espera a loja.js enviar algum pedido. Assim que o pedido é comunicado pela loja, o segundoConsumidor.js recebe as informações que foram repassadas pelo primeiroConsumidor e coloca o pedido em enviado.
 
   
